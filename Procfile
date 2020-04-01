@@ -1,1 +1,1 @@
-web: node server.js
+web: export CORSANYWHERE_BLACKLIST=https://www.alaninu.com; node server.js
