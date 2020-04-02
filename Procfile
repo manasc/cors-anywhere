@@ -1,1 +1,1 @@
-web: export CORSANYWHERE_WHITELIST=https://www.alaninu.com; node server.js
+web: export CORSANYWHERE_WHITELIST=https://www.alaninu.com; export CORSANYWHERE_RATELIMIT='20000 60 https://www.alaninu.com'; node server.js
